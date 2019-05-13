@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+header,section,footer{
+	display: block;
+}
+div{
+	width: 1000px;
+	margin: 0px auto;
+	 
+}
+img{
+	float: left;
+	width: 130px;
+	height: 100px;
+	background-color: grey;
+}
+.option{
+	float: right;
+	width: 770px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 20px;
+	font-family: serif;
+
+}
+
+li{
+	float: right;
+	padding: 10px 25px;
+}
+section{
+	text-align: center;
+	vertical-align: bottom;
+	height: 150px;
+	padding-top: 426px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #cccccc;
+	text-shadow: 3px 3px 7px black;
+	letter-spacing: 2px;
+	animation: fadein 3s ease-in 0s;
+}
+
+h3,p,table{
+	animation: blin 2s linear 1;
+}
+@keyframes blin{
+	0%{opacity: 0;}
+	50%{opacity: .5;}
+	100%{opacity: 1;}
+}
+footer{
+	text-align: center;
+	vertical-align: top;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+a:active{
+	color: black;
+}
+body{
+	background: url(avengers.jpg) no-repeat center fixed;
+	overflow: hidden;
+	background-size: cover;
+}
+.table{
+	text-align: center;
+	vertical-align: bottom;
+	height: 150px;
+	padding-top: 226px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #cccccc;
+	text-shadow: 3px 3px 7px black;
+	letter-spacing: 2px;
+}
+.f{
+	padding-top: 150px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.li{
+	padding-left: 280px;
+}
+.li img{
+	height: 50px;
+	width: 50px;
+	margin:50px;
+}
